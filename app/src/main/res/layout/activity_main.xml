@@ -6,10 +6,21 @@
     android:layout_height="match_parent"
     tools:context="com.example.arturmusayelyan.workwithfiles.MainActivity">
 
-    <TextView
+
+    <Button
+        android:id="@+id/send_intent_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-         />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="send intent" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/send_intent_btn"
+        android:text="Hello World!" />
 
 </RelativeLayout>

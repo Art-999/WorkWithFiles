@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WorkWithFiles</string>
+    <string name="application_name">MyApp</string>
 </resources>
